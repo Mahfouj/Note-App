@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dcotorFragment">
+
+
+
+    <EditText
+        android:id="@+id/textDtor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:hint="What Is The Next To Do?..."
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:textColor="@color/Blue"
+        android:textColorHint="@color/Blue"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+     android:textColor="@color/Blue"
+      android:id="@+id/btnDate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Take A Date"
+      android:layout_margin="8dp"
+      android:fontFamily="@font/akaya_telivigala"
+      android:textStyle="bold"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:textAllCaps="false"
+     />
+
+    <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/btnTime"
+       android:textColor="@color/Blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take A Time"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:textAllCaps="false"
+        />
+
+         <androidx.appcompat.widget.AppCompatSpinner
+
+             android:id="@+id/spnDr"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="@color/Blue"
+             />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSub"
+        android:textColor="@color/Blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="4dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+
+        />
+
+
+
+</LinearLayout>
